@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node -r ./scripts/setupEnv.js server.js",
     "dev": "nodemon -r ./scripts/setupEnv.js server.js",
+    "build": "node -r ./scripts/setupEnv.js build.js",
     "setup-env": "node ./scripts/setupEnv.js",
     "test": "jest",
     "migrate": "npx sequelize-cli db:migrate",
