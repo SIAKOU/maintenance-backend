@@ -1,0 +1,352 @@
+{"level":"info","message":"✅ Connexion à la base de données établie","timestamp":"2025-07-16 16:55:09"}
+{"level":"info","message":"✅ Modèles de base de données synchronisés","timestamp":"2025-07-16 16:55:10"}
+{"level":"info","message":"🚀 Serveur démarré et accessible sur le réseau local","timestamp":"2025-07-16 16:55:10"}
+{"level":"info","message":"📡 Adresse réseau détectée: 100.126.1.143","timestamp":"2025-07-16 16:55:10"}
+{"level":"info","message":"   - Local:    http://localhost:5000","timestamp":"2025-07-16 16:55:10"}
+{"level":"info","message":"   - Réseau:   http://100.126.1.143:5000","timestamp":"2025-07-16 16:55:10"}
+{"level":"info","message":"   - Mobile:   Assurez-vous d'être sur le même réseau WiFi","timestamp":"2025-07-16 16:55:10"}
+{"level":"info","message":"📚 API disponible sur /api","timestamp":"2025-07-16 16:55:10"}
+{"email":"SIAKOU2006@gmail.com","level":"info","message":"Tentative de connexion - Données reçues:","password":"SIAKOU2006","timestamp":"2025-07-16 16:58:13"}
+{"0":"S","1":"I","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"A","3":"K","4":"O","5":"U","6":"2","7":"0","8":"0","9":"6","level":"info","message":"Recherche utilisateur:","timestamp":"2025-07-16 16:58:13"}
+{"0":"S","1":"I","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"A","3":"K","4":"O","5":"U","6":"2","7":"0","8":"0","9":"6","level":"info","message":"Utilisateur trouvé:","timestamp":"2025-07-16 16:58:13"}
+{"level":"info","message":"Comparaison mot de passe...","timestamp":"2025-07-16 16:58:13"}
+{"level":"info","message":"✅ Connexion à la base de données établie","timestamp":"2025-07-16 16:59:20"}
+{"level":"info","message":"✅ Modèles de base de données synchronisés","timestamp":"2025-07-16 16:59:21"}
+{"level":"info","message":"🚀 Serveur démarré et accessible sur le réseau local","timestamp":"2025-07-16 16:59:21"}
+{"level":"info","message":"📡 Adresse réseau détectée: 100.126.1.143","timestamp":"2025-07-16 16:59:21"}
+{"level":"info","message":"   - Local:    http://localhost:5000","timestamp":"2025-07-16 16:59:21"}
+{"level":"info","message":"   - Réseau:   http://100.126.1.143:5000","timestamp":"2025-07-16 16:59:21"}
+{"level":"info","message":"   - Mobile:   Assurez-vous d'être sur le même réseau WiFi","timestamp":"2025-07-16 16:59:21"}
+{"level":"info","message":"📚 API disponible sur /api","timestamp":"2025-07-16 16:59:21"}
+{"level":"info","message":"✅ Connexion à la base de données établie","timestamp":"2025-07-16 16:59:46"}
+{"level":"info","message":"✅ Modèles de base de données synchronisés","timestamp":"2025-07-16 16:59:47"}
+{"level":"info","message":"🚀 Serveur démarré et accessible sur le réseau local","timestamp":"2025-07-16 16:59:47"}
+{"level":"info","message":"📡 Adresse réseau détectée: 100.126.1.143","timestamp":"2025-07-16 16:59:47"}
+{"level":"info","message":"   - Local:    http://localhost:5000","timestamp":"2025-07-16 16:59:47"}
+{"level":"info","message":"   - Réseau:   http://100.126.1.143:5000","timestamp":"2025-07-16 16:59:47"}
+{"level":"info","message":"   - Mobile:   Assurez-vous d'être sur le même réseau WiFi","timestamp":"2025-07-16 16:59:47"}
+{"level":"info","message":"📚 API disponible sur /api","timestamp":"2025-07-16 16:59:47"}
+{"level":"info","message":"✅ Connexion à la base de données établie","timestamp":"2025-07-16 17:02:10"}
+{"level":"info","message":"✅ Modèles de base de données synchronisés","timestamp":"2025-07-16 17:02:12"}
+{"level":"info","message":"🚀 Serveur démarré et accessible sur le réseau local","timestamp":"2025-07-16 17:02:12"}
+{"level":"info","message":"📡 Adresse réseau détectée: 100.126.1.143","timestamp":"2025-07-16 17:02:12"}
+{"level":"info","message":"   - Local:    http://localhost:5000","timestamp":"2025-07-16 17:02:12"}
+{"level":"info","message":"   - Réseau:   http://100.126.1.143:5000","timestamp":"2025-07-16 17:02:12"}
+{"level":"info","message":"   - Mobile:   Assurez-vous d'être sur le même réseau WiFi","timestamp":"2025-07-16 17:02:12"}
+{"level":"info","message":"📚 API disponible sur /api","timestamp":"2025-07-16 17:02:12"}
+{"level":"info","message":"✅ Connexion à la base de données établie","timestamp":"2025-07-16 17:02:51"}
+{"level":"info","message":"✅ Modèles de base de données synchronisés","timestamp":"2025-07-16 17:02:52"}
+{"level":"info","message":"🚀 Serveur démarré et accessible sur le réseau local","timestamp":"2025-07-16 17:02:52"}
+{"level":"info","message":"📡 Adresse réseau détectée: 100.126.1.143","timestamp":"2025-07-16 17:02:52"}
+{"level":"info","message":"   - Local:    http://localhost:5000","timestamp":"2025-07-16 17:02:52"}
+{"level":"info","message":"   - Réseau:   http://100.126.1.143:5000","timestamp":"2025-07-16 17:02:52"}
+{"level":"info","message":"   - Mobile:   Assurez-vous d'être sur le même réseau WiFi","timestamp":"2025-07-16 17:02:52"}
+{"level":"info","message":"📚 API disponible sur /api","timestamp":"2025-07-16 17:02:52"}
+{"level":"info","message":"✅ Connexion à la base de données établie","timestamp":"2025-07-16 17:06:07"}
+{"level":"info","message":"✅ Modèles de base de données synchronisés","timestamp":"2025-07-16 17:06:08"}
+{"level":"info","message":"🚀 Serveur démarré et accessible sur le réseau local","timestamp":"2025-07-16 17:06:08"}
+{"level":"info","message":"📡 Adresse réseau détectée: 100.126.1.143","timestamp":"2025-07-16 17:06:08"}
+{"level":"info","message":"   - Local:    http://localhost:5000","timestamp":"2025-07-16 17:06:08"}
+{"level":"info","message":"   - Réseau:   http://100.126.1.143:5000","timestamp":"2025-07-16 17:06:08"}
+{"level":"info","message":"   - Mobile:   Assurez-vous d'être sur le même réseau WiFi","timestamp":"2025-07-16 17:06:08"}
+{"level":"info","message":"📚 API disponible sur /api","timestamp":"2025-07-16 17:06:08"}
+{"level":"info","message":"✅ Connexion à la base de données établie","timestamp":"2025-07-16 17:08:43"}
+{"level":"info","message":"✅ Modèles de base de données synchronisés","timestamp":"2025-07-16 17:08:44"}
+{"level":"info","message":"🚀 Serveur démarré et accessible sur le réseau local","timestamp":"2025-07-16 17:08:44"}
+{"level":"info","message":"📡 Adresse réseau détectée: 100.126.1.143","timestamp":"2025-07-16 17:08:44"}
+{"level":"info","message":"   - Local:    http://localhost:5000","timestamp":"2025-07-16 17:08:44"}
+{"level":"info","message":"   - Réseau:   http://100.126.1.143:5000","timestamp":"2025-07-16 17:08:44"}
+{"level":"info","message":"   - Mobile:   Assurez-vous d'être sur le même réseau WiFi","timestamp":"2025-07-16 17:08:44"}
+{"level":"info","message":"📚 API disponible sur /api","timestamp":"2025-07-16 17:08:44"}
+{"level":"info","message":"✅ Connexion à la base de données établie","timestamp":"2025-07-16 17:10:10"}
+{"level":"info","message":"✅ Modèles de base de données synchronisés","timestamp":"2025-07-16 17:10:11"}
+{"level":"info","message":"🚀 Serveur démarré et accessible sur le réseau local","timestamp":"2025-07-16 17:10:11"}
+{"level":"info","message":"📡 Adresse réseau détectée: 100.126.1.143","timestamp":"2025-07-16 17:10:11"}
+{"level":"info","message":"   - Local:    http://localhost:5000","timestamp":"2025-07-16 17:10:11"}
+{"level":"info","message":"   - Réseau:   http://100.126.1.143:5000","timestamp":"2025-07-16 17:10:11"}
+{"level":"info","message":"   - Mobile:   Assurez-vous d'être sur le même réseau WiFi","timestamp":"2025-07-16 17:10:11"}
+{"level":"info","message":"📚 API disponible sur /api","timestamp":"2025-07-16 17:10:11"}
+{"level":"info","message":"✅ Connexion à la base de données établie","timestamp":"2025-07-18 10:39:07"}
+{"level":"info","message":"✅ Modèles de base de données synchronisés","timestamp":"2025-07-18 10:39:09"}
+{"level":"info","message":"🚀 Serveur démarré et accessible sur le réseau local","timestamp":"2025-07-18 10:39:09"}
+{"level":"info","message":"📡 Adresse réseau détectée: 192.168.1.213","timestamp":"2025-07-18 10:39:09"}
+{"level":"info","message":"   - Local:    http://localhost:5000","timestamp":"2025-07-18 10:39:09"}
+{"level":"info","message":"   - Réseau:   http://192.168.1.213:5000","timestamp":"2025-07-18 10:39:09"}
+{"level":"info","message":"   - Mobile:   Assurez-vous d'être sur le même réseau WiFi","timestamp":"2025-07-18 10:39:09"}
+{"level":"info","message":"📚 API disponible sur /api","timestamp":"2025-07-18 10:39:09"}
+{"email":"SIAKOU2006@gmail.com","level":"info","message":"Tentative de connexion - Données reçues:","password":"SIAKOU2006","timestamp":"2025-07-18 10:39:51"}
+{"0":"S","1":"I","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"A","3":"K","4":"O","5":"U","6":"2","7":"0","8":"0","9":"6","level":"info","message":"Recherche utilisateur:","timestamp":"2025-07-18 10:39:51"}
+{"0":"S","1":"I","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"A","3":"K","4":"O","5":"U","6":"2","7":"0","8":"0","9":"6","level":"info","message":"Utilisateur trouvé:","timestamp":"2025-07-18 10:39:52"}
+{"level":"info","message":"Comparaison mot de passe...","timestamp":"2025-07-18 10:39:52"}
+{"level":"info","message":"✅ Connexion à la base de données établie","timestamp":"2025-07-18 10:45:30"}
+{"level":"info","message":"✅ Modèles de base de données synchronisés","timestamp":"2025-07-18 10:45:32"}
+{"level":"info","message":"🚀 Serveur démarré et accessible sur le réseau local","timestamp":"2025-07-18 10:45:32"}
+{"level":"info","message":"📡 Adresse réseau détectée: 192.168.1.213","timestamp":"2025-07-18 10:45:32"}
+{"level":"info","message":"   - Local:    http://localhost:5000","timestamp":"2025-07-18 10:45:32"}
+{"level":"info","message":"   - Réseau:   http://192.168.1.213:5000","timestamp":"2025-07-18 10:45:33"}
+{"level":"info","message":"   - Mobile:   Assurez-vous d'être sur le même réseau WiFi","timestamp":"2025-07-18 10:45:33"}
+{"level":"info","message":"📚 API disponible sur /api","timestamp":"2025-07-18 10:45:33"}
+{"email":"SIAKOU2006@gmail.com","level":"info","message":"Tentative de connexion - Données reçues:","password":"SIAKOU2006","timestamp":"2025-07-18 10:47:26"}
+{"0":"S","1":"I","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"A","3":"K","4":"O","5":"U","6":"2","7":"0","8":"0","9":"6","level":"info","message":"Recherche utilisateur:","timestamp":"2025-07-18 10:47:26"}
+{"0":"S","1":"I","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"A","3":"K","4":"O","5":"U","6":"2","7":"0","8":"0","9":"6","level":"info","message":"Utilisateur trouvé:","timestamp":"2025-07-18 10:47:26"}
+{"level":"info","message":"Comparaison mot de passe...","timestamp":"2025-07-18 10:47:26"}
+{"level":"info","message":"✅ Connexion à la base de données établie","timestamp":"2025-07-18 10:53:22"}
+{"level":"info","message":"✅ Modèles de base de données synchronisés","timestamp":"2025-07-18 10:53:23"}
+{"level":"info","message":"🚀 Serveur démarré et accessible sur le réseau local","timestamp":"2025-07-18 10:53:23"}
+{"level":"info","message":"📡 Adresse réseau détectée: 192.168.1.213","timestamp":"2025-07-18 10:53:23"}
+{"level":"info","message":"   - Local:    http://localhost:5000","timestamp":"2025-07-18 10:53:23"}
+{"level":"info","message":"   - Réseau:   http://192.168.1.213:5000","timestamp":"2025-07-18 10:53:23"}
+{"level":"info","message":"   - Mobile:   Assurez-vous d'être sur le même réseau WiFi","timestamp":"2025-07-18 10:53:23"}
+{"level":"info","message":"📚 API disponible sur /api","timestamp":"2025-07-18 10:53:23"}
+{"level":"info","message":"✅ Connexion à la base de données établie","timestamp":"2025-07-18 10:53:48"}
+{"level":"info","message":"✅ Modèles de base de données synchronisés","timestamp":"2025-07-18 10:53:49"}
+{"level":"info","message":"🚀 Serveur démarré et accessible sur le réseau local","timestamp":"2025-07-18 10:53:49"}
+{"level":"info","message":"📡 Adresse réseau détectée: 192.168.1.213","timestamp":"2025-07-18 10:53:49"}
+{"level":"info","message":"   - Local:    http://localhost:5000","timestamp":"2025-07-18 10:53:49"}
+{"level":"info","message":"   - Réseau:   http://192.168.1.213:5000","timestamp":"2025-07-18 10:53:49"}
+{"level":"info","message":"   - Mobile:   Assurez-vous d'être sur le même réseau WiFi","timestamp":"2025-07-18 10:53:49"}
+{"level":"info","message":"📚 API disponible sur /api","timestamp":"2025-07-18 10:53:49"}
+{"level":"info","message":"✅ Connexion à la base de données établie","timestamp":"2025-07-18 10:53:55"}
+{"level":"info","message":"✅ Modèles de base de données synchronisés","timestamp":"2025-07-18 10:53:57"}
+{"level":"info","message":"🚀 Serveur démarré et accessible sur le réseau local","timestamp":"2025-07-18 10:53:57"}
+{"level":"info","message":"📡 Adresse réseau détectée: 192.168.1.213","timestamp":"2025-07-18 10:53:57"}
+{"level":"info","message":"   - Local:    http://localhost:5000","timestamp":"2025-07-18 10:53:57"}
+{"level":"info","message":"   - Réseau:   http://192.168.1.213:5000","timestamp":"2025-07-18 10:53:57"}
+{"level":"info","message":"   - Mobile:   Assurez-vous d'être sur le même réseau WiFi","timestamp":"2025-07-18 10:53:57"}
+{"level":"info","message":"📚 API disponible sur /api","timestamp":"2025-07-18 10:53:57"}
+{"level":"info","message":"✅ Connexion à la base de données établie","timestamp":"2025-07-18 11:04:47"}
+{"level":"info","message":"✅ Modèles de base de données synchronisés","timestamp":"2025-07-18 11:04:48"}
+{"level":"info","message":"🚀 Serveur démarré et accessible sur le réseau local","timestamp":"2025-07-18 11:04:48"}
+{"level":"info","message":"📡 Adresse réseau détectée: 192.168.1.213","timestamp":"2025-07-18 11:04:48"}
+{"level":"info","message":"   - Local:    http://localhost:5000","timestamp":"2025-07-18 11:04:48"}
+{"level":"info","message":"   - Réseau:   http://192.168.1.213:5000","timestamp":"2025-07-18 11:04:48"}
+{"level":"info","message":"   - Mobile:   Assurez-vous d'être sur le même réseau WiFi","timestamp":"2025-07-18 11:04:48"}
+{"level":"info","message":"📚 API disponible sur /api","timestamp":"2025-07-18 11:04:48"}
+{"level":"info","message":"✅ Connexion à la base de données établie","timestamp":"2025-07-18 11:05:07"}
+{"level":"info","message":"✅ Modèles de base de données synchronisés","timestamp":"2025-07-18 11:05:10"}
+{"level":"info","message":"🚀 Serveur démarré et accessible sur le réseau local","timestamp":"2025-07-18 11:05:10"}
+{"level":"info","message":"📡 Adresse réseau détectée: 192.168.1.213","timestamp":"2025-07-18 11:05:10"}
+{"level":"info","message":"   - Local:    http://localhost:5000","timestamp":"2025-07-18 11:05:10"}
+{"level":"info","message":"   - Réseau:   http://192.168.1.213:5000","timestamp":"2025-07-18 11:05:10"}
+{"level":"info","message":"   - Mobile:   Assurez-vous d'être sur le même réseau WiFi","timestamp":"2025-07-18 11:05:10"}
+{"level":"info","message":"📚 API disponible sur /api","timestamp":"2025-07-18 11:05:10"}
+{"level":"info","message":"✅ Connexion à la base de données établie","timestamp":"2025-07-18 11:05:24"}
+{"level":"info","message":"✅ Modèles de base de données synchronisés","timestamp":"2025-07-18 11:05:26"}
+{"level":"info","message":"🚀 Serveur démarré et accessible sur le réseau local","timestamp":"2025-07-18 11:05:26"}
+{"level":"info","message":"📡 Adresse réseau détectée: 192.168.1.213","timestamp":"2025-07-18 11:05:26"}
+{"level":"info","message":"   - Local:    http://localhost:5000","timestamp":"2025-07-18 11:05:26"}
+{"level":"info","message":"   - Réseau:   http://192.168.1.213:5000","timestamp":"2025-07-18 11:05:26"}
+{"level":"info","message":"   - Mobile:   Assurez-vous d'être sur le même réseau WiFi","timestamp":"2025-07-18 11:05:26"}
+{"level":"info","message":"📚 API disponible sur /api","timestamp":"2025-07-18 11:05:26"}
+{"level":"info","message":"✅ Connexion à la base de données établie","timestamp":"2025-07-18 11:10:26"}
+{"level":"info","message":"✅ Modèles de base de données synchronisés","timestamp":"2025-07-18 11:10:27"}
+{"level":"info","message":"🚀 Serveur démarré et accessible sur le réseau local","timestamp":"2025-07-18 11:10:27"}
+{"level":"info","message":"📡 Adresse réseau détectée: 192.168.1.213","timestamp":"2025-07-18 11:10:27"}
+{"level":"info","message":"   - Local:    http://localhost:5000","timestamp":"2025-07-18 11:10:27"}
+{"level":"info","message":"   - Réseau:   http://192.168.1.213:5000","timestamp":"2025-07-18 11:10:27"}
+{"level":"info","message":"   - Mobile:   Assurez-vous d'être sur le même réseau WiFi","timestamp":"2025-07-18 11:10:27"}
+{"level":"info","message":"📚 API disponible sur /api","timestamp":"2025-07-18 11:10:27"}
+{"level":"info","message":"✅ Connexion à la base de données établie","timestamp":"2025-07-18 11:14:30"}
+{"level":"info","message":"✅ Modèles de base de données synchronisés","timestamp":"2025-07-18 11:14:31"}
+{"level":"info","message":"🚀 Serveur démarré et accessible sur le réseau local","timestamp":"2025-07-18 11:14:31"}
+{"level":"info","message":"📡 Adresse réseau détectée: 192.168.1.213","timestamp":"2025-07-18 11:14:31"}
+{"level":"info","message":"   - Local:    http://localhost:5000","timestamp":"2025-07-18 11:14:31"}
+{"level":"info","message":"   - Réseau:   http://192.168.1.213:5000","timestamp":"2025-07-18 11:14:31"}
+{"level":"info","message":"   - Mobile:   Assurez-vous d'être sur le même réseau WiFi","timestamp":"2025-07-18 11:14:31"}
+{"level":"info","message":"📚 API disponible sur /api","timestamp":"2025-07-18 11:14:31"}
+{"level":"info","message":"✅ Connexion à la base de données établie","timestamp":"2025-07-18 11:14:48"}
+{"level":"info","message":"✅ Modèles de base de données synchronisés","timestamp":"2025-07-18 11:14:51"}
+{"level":"info","message":"🚀 Serveur démarré et accessible sur le réseau local","timestamp":"2025-07-18 11:14:51"}
+{"level":"info","message":"📡 Adresse réseau détectée: 192.168.1.213","timestamp":"2025-07-18 11:14:51"}
+{"level":"info","message":"   - Local:    http://localhost:5000","timestamp":"2025-07-18 11:14:51"}
+{"level":"info","message":"   - Réseau:   http://192.168.1.213:5000","timestamp":"2025-07-18 11:14:51"}
+{"level":"info","message":"   - Mobile:   Assurez-vous d'être sur le même réseau WiFi","timestamp":"2025-07-18 11:14:51"}
+{"level":"info","message":"📚 API disponible sur /api","timestamp":"2025-07-18 11:14:51"}
+{"level":"info","message":"✅ Connexion à la base de données établie","timestamp":"2025-07-18 11:15:27"}
+{"level":"info","message":"✅ Modèles de base de données synchronisés","timestamp":"2025-07-18 11:15:28"}
+{"level":"info","message":"🚀 Serveur démarré et accessible sur le réseau local","timestamp":"2025-07-18 11:15:28"}
+{"level":"info","message":"📡 Adresse réseau détectée: 192.168.1.213","timestamp":"2025-07-18 11:15:28"}
+{"level":"info","message":"   - Local:    http://localhost:5000","timestamp":"2025-07-18 11:15:28"}
+{"level":"info","message":"   - Réseau:   http://192.168.1.213:5000","timestamp":"2025-07-18 11:15:28"}
+{"level":"info","message":"   - Mobile:   Assurez-vous d'être sur le même réseau WiFi","timestamp":"2025-07-18 11:15:28"}
+{"level":"info","message":"📚 API disponible sur /api","timestamp":"2025-07-18 11:15:28"}
+{"level":"info","message":"✅ Connexion à la base de données établie","timestamp":"2025-07-18 11:17:27"}
+{"level":"info","message":"✅ Modèles de base de données synchronisés","timestamp":"2025-07-18 11:17:28"}
+{"level":"info","message":"🚀 Serveur démarré et accessible sur le réseau local","timestamp":"2025-07-18 11:17:28"}
+{"level":"info","message":"📡 Adresse réseau détectée: 192.168.1.213","timestamp":"2025-07-18 11:17:28"}
+{"level":"info","message":"   - Local:    http://localhost:5000","timestamp":"2025-07-18 11:17:28"}
+{"level":"info","message":"   - Réseau:   http://192.168.1.213:5000","timestamp":"2025-07-18 11:17:28"}
+{"level":"info","message":"   - Mobile:   Assurez-vous d'être sur le même réseau WiFi","timestamp":"2025-07-18 11:17:28"}
+{"level":"info","message":"📚 API disponible sur /api","timestamp":"2025-07-18 11:17:28"}
+{"level":"info","message":"✅ Connexion à la base de données établie","timestamp":"2025-07-18 11:25:22"}
+{"level":"info","message":"✅ Modèles de base de données synchronisés","timestamp":"2025-07-18 11:25:23"}
+{"level":"info","message":"🚀 Serveur démarré et accessible sur le réseau local","timestamp":"2025-07-18 11:25:23"}
+{"level":"info","message":"📡 Adresse réseau détectée: 192.168.1.213","timestamp":"2025-07-18 11:25:23"}
+{"level":"info","message":"   - Local:    http://localhost:5000","timestamp":"2025-07-18 11:25:23"}
+{"level":"info","message":"   - Réseau:   http://192.168.1.213:5000","timestamp":"2025-07-18 11:25:23"}
+{"level":"info","message":"   - Mobile:   Assurez-vous d'être sur le même réseau WiFi","timestamp":"2025-07-18 11:25:23"}
+{"level":"info","message":"📚 API disponible sur /api","timestamp":"2025-07-18 11:25:23"}
+{"level":"info","message":"✅ Connexion à la base de données établie","timestamp":"2025-07-18 11:31:28"}
+{"level":"info","message":"✅ Modèles de base de données synchronisés","timestamp":"2025-07-18 11:31:29"}
+{"level":"info","message":"🚀 Serveur démarré et accessible sur le réseau local","timestamp":"2025-07-18 11:31:29"}
+{"level":"info","message":"📡 Adresse réseau détectée: 192.168.1.213","timestamp":"2025-07-18 11:31:29"}
+{"level":"info","message":"   - Local:    http://localhost:5000","timestamp":"2025-07-18 11:31:29"}
+{"level":"info","message":"   - Réseau:   http://192.168.1.213:5000","timestamp":"2025-07-18 11:31:29"}
+{"level":"info","message":"   - Mobile:   Assurez-vous d'être sur le même réseau WiFi","timestamp":"2025-07-18 11:31:29"}
+{"level":"info","message":"📚 API disponible sur /api","timestamp":"2025-07-18 11:31:29"}
+{"level":"info","message":"✅ Connexion à la base de données établie","timestamp":"2025-07-18 11:34:56"}
+{"level":"info","message":"✅ Modèles de base de données synchronisés","timestamp":"2025-07-18 11:34:58"}
+{"level":"info","message":"🚀 Serveur démarré et accessible sur le réseau local","timestamp":"2025-07-18 11:34:58"}
+{"level":"info","message":"📡 Adresse réseau détectée: 192.168.1.213","timestamp":"2025-07-18 11:34:58"}
+{"level":"info","message":"   - Local:    http://localhost:5000","timestamp":"2025-07-18 11:34:58"}
+{"level":"info","message":"   - Réseau:   http://192.168.1.213:5000","timestamp":"2025-07-18 11:34:58"}
+{"level":"info","message":"   - Mobile:   Assurez-vous d'être sur le même réseau WiFi","timestamp":"2025-07-18 11:34:58"}
+{"level":"info","message":"📚 API disponible sur /api","timestamp":"2025-07-18 11:34:58"}
+{"level":"info","message":"✅ Connexion à la base de données établie","timestamp":"2025-07-18 11:35:04"}
+{"level":"info","message":"✅ Modèles de base de données synchronisés","timestamp":"2025-07-18 11:35:07"}
+{"level":"info","message":"🚀 Serveur démarré et accessible sur le réseau local","timestamp":"2025-07-18 11:35:07"}
+{"level":"info","message":"📡 Adresse réseau détectée: 192.168.1.213","timestamp":"2025-07-18 11:35:07"}
+{"level":"info","message":"   - Local:    http://localhost:5000","timestamp":"2025-07-18 11:35:07"}
+{"level":"info","message":"   - Réseau:   http://192.168.1.213:5000","timestamp":"2025-07-18 11:35:07"}
+{"level":"info","message":"   - Mobile:   Assurez-vous d'être sur le même réseau WiFi","timestamp":"2025-07-18 11:35:07"}
+{"level":"info","message":"📚 API disponible sur /api","timestamp":"2025-07-18 11:35:07"}
+{"level":"info","message":"✅ Connexion à la base de données établie","timestamp":"2025-07-18 11:40:39"}
+{"level":"info","message":"✅ Modèles de base de données synchronisés","timestamp":"2025-07-18 11:40:40"}
+{"level":"info","message":"🚀 Serveur démarré et accessible sur le réseau local","timestamp":"2025-07-18 11:40:40"}
+{"level":"info","message":"📡 Adresse réseau détectée: 192.168.1.213","timestamp":"2025-07-18 11:40:40"}
+{"level":"info","message":"   - Local:    http://localhost:5000","timestamp":"2025-07-18 11:40:40"}
+{"level":"info","message":"   - Réseau:   http://192.168.1.213:5000","timestamp":"2025-07-18 11:40:40"}
+{"level":"info","message":"   - Mobile:   Assurez-vous d'être sur le même réseau WiFi","timestamp":"2025-07-18 11:40:40"}
+{"level":"info","message":"📚 API disponible sur /api","timestamp":"2025-07-18 11:40:40"}
+{"level":"info","message":"✅ Connexion à la base de données établie","timestamp":"2025-07-18 12:07:00"}
+{"level":"info","message":"✅ Modèles de base de données synchronisés","timestamp":"2025-07-18 12:07:02"}
+{"level":"info","message":"🚀 Serveur démarré et accessible sur le réseau local","timestamp":"2025-07-18 12:07:02"}
+{"level":"info","message":"📡 Adresse réseau détectée: 192.168.1.213","timestamp":"2025-07-18 12:07:02"}
+{"level":"info","message":"   - Local:    http://localhost:5000","timestamp":"2025-07-18 12:07:02"}
+{"level":"info","message":"   - Réseau:   http://192.168.1.213:5000","timestamp":"2025-07-18 12:07:02"}
+{"level":"info","message":"   - Mobile:   Assurez-vous d'être sur le même réseau WiFi","timestamp":"2025-07-18 12:07:02"}
+{"level":"info","message":"📚 API disponible sur /api","timestamp":"2025-07-18 12:07:02"}
+{"email":"SIAKOU2006@gmail.com","level":"info","message":"Tentative de connexion - Données reçues:","password":"SIAKOU2006","timestamp":"2025-07-18 12:09:14"}
+{"0":"S","1":"I","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"A","3":"K","4":"O","5":"U","6":"2","7":"0","8":"0","9":"6","level":"info","message":"Recherche utilisateur:","timestamp":"2025-07-18 12:09:14"}
+{"0":"S","1":"I","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"A","3":"K","4":"O","5":"U","6":"2","7":"0","8":"0","9":"6","level":"info","message":"Utilisateur trouvé:","timestamp":"2025-07-18 12:09:15"}
+{"level":"info","message":"Comparaison mot de passe...","timestamp":"2025-07-18 12:09:15"}
+{"email":"SIAKOU2006@gmail.com","level":"info","message":"Tentative de connexion - Données reçues:","password":"SIAKOU2006","timestamp":"2025-07-18 12:09:43"}
+{"0":"S","1":"I","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"A","3":"K","4":"O","5":"U","6":"2","7":"0","8":"0","9":"6","level":"info","message":"Recherche utilisateur:","timestamp":"2025-07-18 12:09:43"}
+{"0":"S","1":"I","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"A","3":"K","4":"O","5":"U","6":"2","7":"0","8":"0","9":"6","level":"info","message":"Utilisateur trouvé:","timestamp":"2025-07-18 12:09:43"}
+{"level":"info","message":"Comparaison mot de passe...","timestamp":"2025-07-18 12:09:43"}
+{"email":"SIAKOU2006@gmail.com","level":"info","message":"Tentative de connexion - Données reçues:","password":"SIAKOU2006","timestamp":"2025-07-18 12:10:10"}
+{"0":"S","1":"I","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"A","3":"K","4":"O","5":"U","6":"2","7":"0","8":"0","9":"6","level":"info","message":"Recherche utilisateur:","timestamp":"2025-07-18 12:10:10"}
+{"0":"S","1":"I","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"A","3":"K","4":"O","5":"U","6":"2","7":"0","8":"0","9":"6","level":"info","message":"Utilisateur trouvé:","timestamp":"2025-07-18 12:10:10"}
+{"level":"info","message":"Comparaison mot de passe...","timestamp":"2025-07-18 12:10:10"}
+{"level":"info","message":"✅ Connexion à la base de données établie","timestamp":"2025-07-18 12:13:24"}
+{"level":"info","message":"✅ Modèles de base de données synchronisés","timestamp":"2025-07-18 12:13:29"}
+{"level":"info","message":"🚀 Serveur démarré et accessible sur le réseau local","timestamp":"2025-07-18 12:13:29"}
+{"level":"info","message":"📡 Adresse réseau détectée: 192.168.1.213","timestamp":"2025-07-18 12:13:29"}
+{"level":"info","message":"   - Local:    http://localhost:5000","timestamp":"2025-07-18 12:13:29"}
+{"level":"info","message":"   - Réseau:   http://192.168.1.213:5000","timestamp":"2025-07-18 12:13:29"}
+{"level":"info","message":"   - Mobile:   Assurez-vous d'être sur le même réseau WiFi","timestamp":"2025-07-18 12:13:29"}
+{"level":"info","message":"📚 API disponible sur /api","timestamp":"2025-07-18 12:13:29"}
+{"email":"SIAKOU2006@gmail.com","level":"info","message":"Tentative de connexion - Données reçues:","password":"SIAKOU2006","timestamp":"2025-07-18 12:13:52"}
+{"0":"S","1":"I","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"A","3":"K","4":"O","5":"U","6":"2","7":"0","8":"0","9":"6","level":"info","message":"Recherche utilisateur:","timestamp":"2025-07-18 12:13:52"}
+{"0":"S","1":"I","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"A","3":"K","4":"O","5":"U","6":"2","7":"0","8":"0","9":"6","level":"info","message":"Utilisateur trouvé:","timestamp":"2025-07-18 12:13:52"}
+{"level":"info","message":"Comparaison mot de passe...","timestamp":"2025-07-18 12:13:52"}
+{"level":"info","message":"✅ Connexion à la base de données établie","timestamp":"2025-07-18 12:23:11"}
+{"level":"info","message":"✅ Modèles de base de données synchronisés","timestamp":"2025-07-18 12:23:13"}
+{"level":"info","message":"🚀 Serveur démarré et accessible sur le réseau local","timestamp":"2025-07-18 12:23:13"}
+{"level":"info","message":"📡 Adresse réseau détectée: 192.168.1.213","timestamp":"2025-07-18 12:23:13"}
+{"level":"info","message":"   - Local:    http://localhost:5000","timestamp":"2025-07-18 12:23:13"}
+{"level":"info","message":"   - Réseau:   http://192.168.1.213:5000","timestamp":"2025-07-18 12:23:13"}
+{"level":"info","message":"   - Mobile:   Assurez-vous d'être sur le même réseau WiFi","timestamp":"2025-07-18 12:23:13"}
+{"level":"info","message":"📚 API disponible sur /api","timestamp":"2025-07-18 12:23:13"}
+{"level":"info","message":"✅ Connexion à la base de données établie","timestamp":"2025-07-18 12:23:51"}
+{"level":"info","message":"✅ Modèles de base de données synchronisés","timestamp":"2025-07-18 12:23:53"}
+{"level":"info","message":"🚀 Serveur démarré et accessible sur le réseau local","timestamp":"2025-07-18 12:23:53"}
+{"level":"info","message":"📡 Adresse réseau détectée: 192.168.1.213","timestamp":"2025-07-18 12:23:53"}
+{"level":"info","message":"   - Local:    http://localhost:5000","timestamp":"2025-07-18 12:23:53"}
+{"level":"info","message":"   - Réseau:   http://192.168.1.213:5000","timestamp":"2025-07-18 12:23:53"}
+{"level":"info","message":"   - Mobile:   Assurez-vous d'être sur le même réseau WiFi","timestamp":"2025-07-18 12:23:53"}
+{"level":"info","message":"📚 API disponible sur /api","timestamp":"2025-07-18 12:23:53"}
+{"level":"info","message":"✅ Connexion à la base de données établie","timestamp":"2025-07-18 12:27:14"}
+{"level":"info","message":"✅ Modèles de base de données synchronisés","timestamp":"2025-07-18 12:27:15"}
+{"level":"info","message":"🚀 Serveur démarré et accessible sur le réseau local","timestamp":"2025-07-18 12:27:15"}
+{"level":"info","message":"📡 Adresse réseau détectée: 192.168.1.213","timestamp":"2025-07-18 12:27:15"}
+{"level":"info","message":"   - Local:    http://localhost:5000","timestamp":"2025-07-18 12:27:15"}
+{"level":"info","message":"   - Réseau:   http://192.168.1.213:5000","timestamp":"2025-07-18 12:27:15"}
+{"level":"info","message":"   - Mobile:   Assurez-vous d'être sur le même réseau WiFi","timestamp":"2025-07-18 12:27:15"}
+{"level":"info","message":"📚 API disponible sur /api","timestamp":"2025-07-18 12:27:15"}
+{"level":"info","message":"✅ Connexion à la base de données établie","timestamp":"2025-07-18 12:29:24"}
+{"level":"info","message":"✅ Modèles de base de données synchronisés","timestamp":"2025-07-18 12:29:25"}
+{"email":"SIAKOU2006@gmail.com","level":"info","message":"Tentative de connexion - Données reçues:","password":"SIAKOU2006","timestamp":"2025-07-18 12:30:22"}
+{"0":"S","1":"I","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"A","3":"K","4":"O","5":"U","6":"2","7":"0","8":"0","9":"6","level":"info","message":"Recherche utilisateur:","timestamp":"2025-07-18 12:30:22"}
+{"0":"S","1":"I","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"A","3":"K","4":"O","5":"U","6":"2","7":"0","8":"0","9":"6","level":"info","message":"Utilisateur trouvé:","timestamp":"2025-07-18 12:30:22"}
+{"level":"info","message":"Comparaison mot de passe...","timestamp":"2025-07-18 12:30:22"}
+{"level":"info","message":"✅ Connexion à la base de données établie","timestamp":"2025-07-18 12:33:57"}
+{"level":"info","message":"✅ Modèles de base de données synchronisés","timestamp":"2025-07-18 12:33:59"}
+{"level":"info","message":"✅ Connexion à la base de données établie","timestamp":"2025-07-18 12:37:20"}
+{"level":"info","message":"✅ Modèles de base de données synchronisés","timestamp":"2025-07-18 12:37:22"}
+{"level":"info","message":"🚀 Serveur démarré et accessible sur le réseau local","timestamp":"2025-07-18 12:37:22"}
+{"level":"info","message":"📡 Adresse réseau détectée: 192.168.1.213","timestamp":"2025-07-18 12:37:22"}
+{"level":"info","message":"   - Local:    http://localhost:5000","timestamp":"2025-07-18 12:37:22"}
+{"level":"info","message":"   - Réseau:   http://192.168.1.213:5000","timestamp":"2025-07-18 12:37:22"}
+{"level":"info","message":"   - Mobile:   Assurez-vous d'être sur le même réseau WiFi","timestamp":"2025-07-18 12:37:22"}
+{"level":"info","message":"📚 API disponible sur /api","timestamp":"2025-07-18 12:37:22"}
+{"email":"SIAKOU2006@gmail.com","level":"info","message":"Tentative de connexion - Données reçues:","password":"SIAKOU2006","timestamp":"2025-07-18 12:38:45"}
+{"0":"S","1":"I","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"A","3":"K","4":"O","5":"U","6":"2","7":"0","8":"0","9":"6","level":"info","message":"Recherche utilisateur:","timestamp":"2025-07-18 12:38:45"}
+{"0":"S","1":"I","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"A","3":"K","4":"O","5":"U","6":"2","7":"0","8":"0","9":"6","level":"info","message":"Utilisateur trouvé:","timestamp":"2025-07-18 12:38:45"}
+{"level":"info","message":"Comparaison mot de passe...","timestamp":"2025-07-18 12:38:45"}
+{"level":"info","message":"✅ Connexion à la base de données établie","timestamp":"2025-07-18 12:45:08"}
+{"level":"info","message":"✅ Modèles de base de données synchronisés","timestamp":"2025-07-18 12:45:09"}
+{"level":"info","message":"🚀 Serveur démarré et accessible sur le réseau local","timestamp":"2025-07-18 12:45:09"}
+{"level":"info","message":"📡 Adresse réseau détectée: 192.168.1.213","timestamp":"2025-07-18 12:45:09"}
+{"level":"info","message":"   - Local:    http://localhost:5000","timestamp":"2025-07-18 12:45:09"}
+{"level":"info","message":"   - Réseau:   http://192.168.1.213:5000","timestamp":"2025-07-18 12:45:09"}
+{"level":"info","message":"   - Mobile:   Assurez-vous d'être sur le même réseau WiFi","timestamp":"2025-07-18 12:45:09"}
+{"level":"info","message":"📚 API disponible sur /api","timestamp":"2025-07-18 12:45:09"}
+{"email":"SIAKOU2006@gmail.com","level":"info","message":"Tentative de connexion - Données reçues:","password":"SIAKOU2006","timestamp":"2025-07-18 12:45:25"}
+{"0":"S","1":"I","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"A","3":"K","4":"O","5":"U","6":"2","7":"0","8":"0","9":"6","level":"info","message":"Recherche utilisateur:","timestamp":"2025-07-18 12:45:25"}
+{"0":"S","1":"I","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"A","3":"K","4":"O","5":"U","6":"2","7":"0","8":"0","9":"6","level":"info","message":"Utilisateur trouvé:","timestamp":"2025-07-18 12:45:25"}
+{"level":"info","message":"Comparaison mot de passe...","timestamp":"2025-07-18 12:45:25"}
+{"email":"SIAKOU2006@gmail.com","level":"info","message":"Tentative de connexion - Données reçues:","password":"SIAKOU2006","timestamp":"2025-07-18 12:53:32"}
+{"0":"S","1":"I","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"A","3":"K","4":"O","5":"U","6":"2","7":"0","8":"0","9":"6","level":"info","message":"Recherche utilisateur:","timestamp":"2025-07-18 12:53:32"}
+{"0":"S","1":"I","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"A","3":"K","4":"O","5":"U","6":"2","7":"0","8":"0","9":"6","level":"info","message":"Utilisateur trouvé:","timestamp":"2025-07-18 12:53:32"}
+{"level":"info","message":"Comparaison mot de passe...","timestamp":"2025-07-18 12:53:32"}
+{"email":"SIAKOU2006@gmail.com","level":"info","message":"Tentative de connexion - Données reçues:","password":"SIAKOU2006","timestamp":"2025-07-18 12:53:50"}
+{"0":"S","1":"I","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"A","3":"K","4":"O","5":"U","6":"2","7":"0","8":"0","9":"6","level":"info","message":"Recherche utilisateur:","timestamp":"2025-07-18 12:53:50"}
+{"0":"S","1":"I","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"A","3":"K","4":"O","5":"U","6":"2","7":"0","8":"0","9":"6","level":"info","message":"Utilisateur trouvé:","timestamp":"2025-07-18 12:53:50"}
+{"level":"info","message":"Comparaison mot de passe...","timestamp":"2025-07-18 12:53:50"}
+{"email":"SIAKOU2006@gmail.com","level":"info","message":"Tentative de connexion - Données reçues:","password":"SIAKOU2006","timestamp":"2025-07-18 12:56:53"}
+{"0":"S","1":"I","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"A","3":"K","4":"O","5":"U","6":"2","7":"0","8":"0","9":"6","level":"info","message":"Recherche utilisateur:","timestamp":"2025-07-18 12:56:53"}
+{"0":"S","1":"I","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"A","3":"K","4":"O","5":"U","6":"2","7":"0","8":"0","9":"6","level":"info","message":"Utilisateur trouvé:","timestamp":"2025-07-18 12:56:53"}
+{"level":"info","message":"Comparaison mot de passe...","timestamp":"2025-07-18 12:56:53"}
+{"email":"SIAKOU2006@gmail.com","level":"info","message":"Tentative de connexion - Données reçues:","password":"SIAKOU2006","timestamp":"2025-07-18 13:06:34"}
+{"0":"S","1":"I","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"A","3":"K","4":"O","5":"U","6":"2","7":"0","8":"0","9":"6","level":"info","message":"Recherche utilisateur:","timestamp":"2025-07-18 13:06:34"}
+{"0":"S","1":"I","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"A","3":"K","4":"O","5":"U","6":"2","7":"0","8":"0","9":"6","level":"info","message":"Utilisateur trouvé:","timestamp":"2025-07-18 13:06:35"}
+{"level":"info","message":"Comparaison mot de passe...","timestamp":"2025-07-18 13:06:35"}
+{"email":"SIAKOU2006@gmail.com","level":"info","message":"Tentative de connexion - Données reçues:","password":"SIAKOU2006","timestamp":"2025-07-19 20:51:10"}
+{"0":"S","1":"I","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"A","3":"K","4":"O","5":"U","6":"2","7":"0","8":"0","9":"6","level":"info","message":"Recherche utilisateur:","timestamp":"2025-07-19 20:51:10"}
+{"0":"S","1":"I","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"A","3":"K","4":"O","5":"U","6":"2","7":"0","8":"0","9":"6","level":"info","message":"Utilisateur trouvé:","timestamp":"2025-07-19 20:51:10"}
+{"level":"info","message":"Comparaison mot de passe...","timestamp":"2025-07-19 20:51:10"}
+{"email":"SIAKOU2006@gmail.com","level":"info","message":"Tentative de connexion - Données reçues:","password":"SIAKOU2006","timestamp":"2025-07-19 20:59:38"}
+{"0":"S","1":"I","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"A","3":"K","4":"O","5":"U","6":"2","7":"0","8":"0","9":"6","level":"info","message":"Recherche utilisateur:","timestamp":"2025-07-19 20:59:38"}
+{"0":"S","1":"I","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"A","3":"K","4":"O","5":"U","6":"2","7":"0","8":"0","9":"6","level":"info","message":"Utilisateur trouvé:","timestamp":"2025-07-19 20:59:39"}
+{"level":"info","message":"Comparaison mot de passe...","timestamp":"2025-07-19 20:59:39"}
+{"ip":"192.150.24.44","level":"info","message":"Tentative de connexion pour SIAKOU2006@gmail.com","timestamp":"2025-07-19 21:47:07"}
+{"email":"SIAKOU2006@gmail.com","env":"development","level":"info","message":"Connexion réussie","timestamp":"2025-07-19 21:47:08","userId":5}
+{"ip":"192.150.24.44","level":"info","message":"Tentative de connexion pour SIAKOU2006@gmail.com","timestamp":"2025-07-19 21:58:59"}
+{"email":"SIAKOU2006@gmail.com","env":"development","level":"info","message":"Connexion réussie","timestamp":"2025-07-19 21:59:00","userId":5}
+{"fields":null,"level":"error","message":"Erreur mise à jour utilisateur: une instruction insert ou update sur la table « audit_logs » viole la contrainte de clé\nétrangère « audit_logs_user_id_fkey »","name":"SequelizeForeignKeyConstraintError","original":{"code":"23503","constraint":"audit_logs_user_id_fkey","detail":"La clé (user_id)=(1) n'est pas présente dans la table « users ».","file":"ri_triggers.c","length":827,"line":"2610","name":"error","parameters":["avatar-1752963068723-756318804.jpeg","REMI.jpeg","uploads\\avatars\\avatar-1752963068723-756318804.jpeg","image/jpeg",752464,"image","avatar","Avatar pour SIAKOU Komi Stanislas",5,5,"2025-07-19 22:11:08.790 +00:00","2025-07-19 22:11:08.790 +00:00"],"routine":"ri_ReportViolation","schema":"public","severity":"ERREUR","sql":"INSERT INTO \"file_attachments\" (\"id\",\"filename\",\"original_name\",\"path\",\"mimetype\",\"size\",\"category\",\"file_type\",\"description\",\"user_id\",\"uploaded_by\",\"created_at\",\"updated_at\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12) RETURNING \"id\",\"filename\",\"original_name\",\"path\",\"mimetype\",\"size\",\"category\",\"file_type\",\"description\",\"intervention_id\",\"report_id\",\"machine_id\",\"user_id\",\"uploaded_by\",\"created_at\",\"updated_at\",\"uploaded_by\",\"intervention_id\",\"report_id\";","table":"audit_logs","where":"instruction SQL « INSERT INTO audit_logs (\n        user_id,\n        action,\n        entity,\n        entity_id,\n        changes,\n        ip_address,\n        user_agent,\n        created_at\n    ) VALUES (\n        effective_user_id,\n        operation,\n        TG_TABLE_NAME,\n        COALESCE(NEW.id, OLD.id),\n        changes,\n        current_setting('app.current_ip', TRUE),\n        current_setting('app.user_agent', TRUE),\n        NOW()\n    ) »\nfonction PL/pgSQL log_audit_trail(), ligne 28 à instruction SQL"},"parameters":["avatar-1752963068723-756318804.jpeg","REMI.jpeg","uploads\\avatars\\avatar-1752963068723-756318804.jpeg","image/jpeg",752464,"image","avatar","Avatar pour SIAKOU Komi Stanislas",5,5,"2025-07-19 22:11:08.790 +00:00","2025-07-19 22:11:08.790 +00:00"],"parent":{"code":"23503","constraint":"audit_logs_user_id_fkey","detail":"La clé (user_id)=(1) n'est pas présente dans la table « users ».","file":"ri_triggers.c","length":827,"line":"2610","name":"error","parameters":["avatar-1752963068723-756318804.jpeg","REMI.jpeg","uploads\\avatars\\avatar-1752963068723-756318804.jpeg","image/jpeg",752464,"image","avatar","Avatar pour SIAKOU Komi Stanislas",5,5,"2025-07-19 22:11:08.790 +00:00","2025-07-19 22:11:08.790 +00:00"],"routine":"ri_ReportViolation","schema":"public","severity":"ERREUR","sql":"INSERT INTO \"file_attachments\" (\"id\",\"filename\",\"original_name\",\"path\",\"mimetype\",\"size\",\"category\",\"file_type\",\"description\",\"user_id\",\"uploaded_by\",\"created_at\",\"updated_at\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12) RETURNING \"id\",\"filename\",\"original_name\",\"path\",\"mimetype\",\"size\",\"category\",\"file_type\",\"description\",\"intervention_id\",\"report_id\",\"machine_id\",\"user_id\",\"uploaded_by\",\"created_at\",\"updated_at\",\"uploaded_by\",\"intervention_id\",\"report_id\";","table":"audit_logs","where":"instruction SQL « INSERT INTO audit_logs (\n        user_id,\n        action,\n        entity,\n        entity_id,\n        changes,\n        ip_address,\n        user_agent,\n        created_at\n    ) VALUES (\n        effective_user_id,\n        operation,\n        TG_TABLE_NAME,\n        COALESCE(NEW.id, OLD.id),\n        changes,\n        current_setting('app.current_ip', TRUE),\n        current_setting('app.user_agent', TRUE),\n        NOW()\n    ) »\nfonction PL/pgSQL log_audit_trail(), ligne 28 à instruction SQL"},"sql":"INSERT INTO \"file_attachments\" (\"id\",\"filename\",\"original_name\",\"path\",\"mimetype\",\"size\",\"category\",\"file_type\",\"description\",\"user_id\",\"uploaded_by\",\"created_at\",\"updated_at\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12) RETURNING \"id\",\"filename\",\"original_name\",\"path\",\"mimetype\",\"size\",\"category\",\"file_type\",\"description\",\"intervention_id\",\"report_id\",\"machine_id\",\"user_id\",\"uploaded_by\",\"created_at\",\"updated_at\",\"uploaded_by\",\"intervention_id\",\"report_id\";","stack":"Error\n    at Query.run (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\dialects\\postgres\\query.js:50:25)\n    at F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async PostgresQueryInterface.insert (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:308:21)\n    at async model.save (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\model.js:2490:35)\n    at async FileAttachment.create (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\model.js:1362:12)\n    at async updateUser (F:\\gestion-maintenance\\backend\\controllers\\userController.js:172:7)","timestamp":"2025-07-19 22:11:08"}
+{"fields":null,"level":"error","message":"Erreur mise à jour utilisateur: une instruction insert ou update sur la table « audit_logs » viole la contrainte de clé\nétrangère « audit_logs_user_id_fkey »","name":"SequelizeForeignKeyConstraintError","original":{"code":"23503","constraint":"audit_logs_user_id_fkey","detail":"La clé (user_id)=(2) n'est pas présente dans la table « users ».","file":"ri_triggers.c","length":827,"line":"2610","name":"error","parameters":["avatar-1752963687318-794504727.jpeg","REMI.jpeg","uploads\\avatars\\avatar-1752963687318-794504727.jpeg","image/jpeg",752464,"image","avatar","Avatar pour SIAKOU Komi Stanislas",5,5,"2025-07-19 22:21:27.376 +00:00","2025-07-19 22:21:27.376 +00:00"],"routine":"ri_ReportViolation","schema":"public","severity":"ERREUR","sql":"INSERT INTO \"file_attachments\" (\"id\",\"filename\",\"original_name\",\"path\",\"mimetype\",\"size\",\"category\",\"file_type\",\"description\",\"user_id\",\"uploaded_by\",\"created_at\",\"updated_at\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12) RETURNING \"id\",\"filename\",\"original_name\",\"path\",\"mimetype\",\"size\",\"category\",\"file_type\",\"description\",\"intervention_id\",\"report_id\",\"machine_id\",\"user_id\",\"uploaded_by\",\"created_at\",\"updated_at\",\"uploaded_by\",\"intervention_id\",\"report_id\";","table":"audit_logs","where":"instruction SQL « INSERT INTO audit_logs (\n        user_id,\n        action,\n        entity,\n        entity_id,\n        changes,\n        ip_address,\n        user_agent,\n        created_at\n    ) VALUES (\n        effective_user_id,\n        operation,\n        TG_TABLE_NAME,\n        COALESCE(NEW.id, OLD.id),\n        changes,\n        current_setting('app.current_ip', TRUE),\n        current_setting('app.user_agent', TRUE),\n        NOW()\n    ) »\nfonction PL/pgSQL log_audit_trail(), ligne 28 à instruction SQL"},"parameters":["avatar-1752963687318-794504727.jpeg","REMI.jpeg","uploads\\avatars\\avatar-1752963687318-794504727.jpeg","image/jpeg",752464,"image","avatar","Avatar pour SIAKOU Komi Stanislas",5,5,"2025-07-19 22:21:27.376 +00:00","2025-07-19 22:21:27.376 +00:00"],"parent":{"code":"23503","constraint":"audit_logs_user_id_fkey","detail":"La clé (user_id)=(2) n'est pas présente dans la table « users ».","file":"ri_triggers.c","length":827,"line":"2610","name":"error","parameters":["avatar-1752963687318-794504727.jpeg","REMI.jpeg","uploads\\avatars\\avatar-1752963687318-794504727.jpeg","image/jpeg",752464,"image","avatar","Avatar pour SIAKOU Komi Stanislas",5,5,"2025-07-19 22:21:27.376 +00:00","2025-07-19 22:21:27.376 +00:00"],"routine":"ri_ReportViolation","schema":"public","severity":"ERREUR","sql":"INSERT INTO \"file_attachments\" (\"id\",\"filename\",\"original_name\",\"path\",\"mimetype\",\"size\",\"category\",\"file_type\",\"description\",\"user_id\",\"uploaded_by\",\"created_at\",\"updated_at\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12) RETURNING \"id\",\"filename\",\"original_name\",\"path\",\"mimetype\",\"size\",\"category\",\"file_type\",\"description\",\"intervention_id\",\"report_id\",\"machine_id\",\"user_id\",\"uploaded_by\",\"created_at\",\"updated_at\",\"uploaded_by\",\"intervention_id\",\"report_id\";","table":"audit_logs","where":"instruction SQL « INSERT INTO audit_logs (\n        user_id,\n        action,\n        entity,\n        entity_id,\n        changes,\n        ip_address,\n        user_agent,\n        created_at\n    ) VALUES (\n        effective_user_id,\n        operation,\n        TG_TABLE_NAME,\n        COALESCE(NEW.id, OLD.id),\n        changes,\n        current_setting('app.current_ip', TRUE),\n        current_setting('app.user_agent', TRUE),\n        NOW()\n    ) »\nfonction PL/pgSQL log_audit_trail(), ligne 28 à instruction SQL"},"sql":"INSERT INTO \"file_attachments\" (\"id\",\"filename\",\"original_name\",\"path\",\"mimetype\",\"size\",\"category\",\"file_type\",\"description\",\"user_id\",\"uploaded_by\",\"created_at\",\"updated_at\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12) RETURNING \"id\",\"filename\",\"original_name\",\"path\",\"mimetype\",\"size\",\"category\",\"file_type\",\"description\",\"intervention_id\",\"report_id\",\"machine_id\",\"user_id\",\"uploaded_by\",\"created_at\",\"updated_at\",\"uploaded_by\",\"intervention_id\",\"report_id\";","stack":"Error\n    at Query.run (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\dialects\\postgres\\query.js:50:25)\n    at F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async PostgresQueryInterface.insert (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:308:21)\n    at async model.save (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\model.js:2490:35)\n    at async FileAttachment.create (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\model.js:1362:12)\n    at async updateUser (F:\\gestion-maintenance\\backend\\controllers\\userController.js:177:7)","timestamp":"2025-07-19 22:21:27"}
+{"level":"info","message":"Avatar créé avec succès: avatar-1752964615829-54739166.jpeg","timestamp":"2025-07-19 22:36:55"}
+{"ip":"192.150.24.44","level":"info","message":"Tentative de connexion pour SIAKOU2006@gmail.com","timestamp":"2025-07-19 22:37:37"}
+{"email":"SIAKOU2006@gmail.com","env":"development","level":"info","message":"Connexion réussie","timestamp":"2025-07-19 22:37:37","userId":5}
+{"level":"error","message":"Erreur récupération machines: Invalid value { undefined: '%tes%' }","stack":"Error: Invalid value { undefined: '%tes%' }\n    at Object.escape (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\sql-string.js:54:11)\n    at PostgresQueryGenerator.escape (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:766:22)\n    at PostgresQueryGenerator._whereParseSingleValueObject (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2060:41)\n    at PostgresQueryGenerator.whereItemQuery (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1818:19)\n    at F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1737:25\n    at Array.forEach (<anonymous>)\n    at PostgresQueryGenerator.whereItemsQuery (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1735:35)\n    at PostgresQueryGenerator.getWhereConditions (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2078:19)\n    at PostgresQueryGenerator.selectQuery (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:991:28)\n    at PostgresQueryInterface.select (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:407:59)","timestamp":"2025-07-19 23:28:34"}
+{"level":"error","message":"Erreur récupération machines: Invalid value { undefined: '%tes%' }","stack":"Error: Invalid value { undefined: '%tes%' }\n    at Object.escape (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\sql-string.js:54:11)\n    at PostgresQueryGenerator.escape (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:766:22)\n    at PostgresQueryGenerator._whereParseSingleValueObject (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2060:41)\n    at PostgresQueryGenerator.whereItemQuery (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1818:19)\n    at F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1737:25\n    at Array.forEach (<anonymous>)\n    at PostgresQueryGenerator.whereItemsQuery (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1735:35)\n    at PostgresQueryGenerator.getWhereConditions (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2078:19)\n    at PostgresQueryGenerator.selectQuery (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:991:28)\n    at PostgresQueryInterface.select (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:407:59)","timestamp":"2025-07-19 23:28:35"}
+{"level":"error","message":"Erreur récupération machines: Invalid value { undefined: '%test%' }","stack":"Error: Invalid value { undefined: '%test%' }\n    at Object.escape (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\sql-string.js:54:11)\n    at PostgresQueryGenerator.escape (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:766:22)\n    at PostgresQueryGenerator._whereParseSingleValueObject (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2060:41)\n    at PostgresQueryGenerator.whereItemQuery (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1818:19)\n    at F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1737:25\n    at Array.forEach (<anonymous>)\n    at PostgresQueryGenerator.whereItemsQuery (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1735:35)\n    at PostgresQueryGenerator.getWhereConditions (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2078:19)\n    at PostgresQueryGenerator.selectQuery (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:991:28)\n    at PostgresQueryInterface.select (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:407:59)","timestamp":"2025-07-19 23:28:35"}
+{"level":"error","message":"Erreur récupération machines: Invalid value { undefined: '%test%' }","stack":"Error: Invalid value { undefined: '%test%' }\n    at Object.escape (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\sql-string.js:54:11)\n    at PostgresQueryGenerator.escape (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:766:22)\n    at PostgresQueryGenerator._whereParseSingleValueObject (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2060:41)\n    at PostgresQueryGenerator.whereItemQuery (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1818:19)\n    at F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1737:25\n    at Array.forEach (<anonymous>)\n    at PostgresQueryGenerator.whereItemsQuery (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1735:35)\n    at PostgresQueryGenerator.getWhereConditions (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2078:19)\n    at PostgresQueryGenerator.selectQuery (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:991:28)\n    at PostgresQueryInterface.select (F:\\gestion-maintenance\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:407:59)","timestamp":"2025-07-19 23:28:36"}
+{"ip":"192.168.1.213","level":"info","message":"Tentative de connexion pour SIAKOU2006@gmail.com","timestamp":"2025-07-21 07:43:09"}
+{"email":"SIAKOU2006@gmail.com","env":"development","level":"info","message":"Connexion réussie","timestamp":"2025-07-21 07:43:11","userId":5}
+{"ip":"192.168.1.112","level":"info","message":"Tentative de connexion pour SIAKOU2006@gmail.com","timestamp":"2025-07-21 08:12:27"}
+{"email":"SIAKOU2006@gmail.com","env":"development","level":"info","message":"Connexion réussie","timestamp":"2025-07-21 08:12:27","userId":5}
+{"level":"info","message":"Avatar créé avec succès: avatar-1753085590609-173308403.png","timestamp":"2025-07-21 08:13:11"}
+{"ip":"192.168.1.112","level":"info","message":"Tentative de connexion pour SIAKOU2006@gmail.com","timestamp":"2025-07-21 08:14:52"}
+{"email":"SIAKOU2006@gmail.com","env":"development","level":"info","message":"Connexion réussie","timestamp":"2025-07-21 08:14:52","userId":5}
