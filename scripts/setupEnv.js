@@ -24,7 +24,18 @@ function setupEnvironment() {
 
   // Mise à jour des variables
   envContent = envContent.replace(/LOCAL_IP=.*/g, `LOCAL_IP=${localIP}`);
-  envContent = envContent.replace(/VITE_API_BASE_URL=.*/g, `VITE_API_BASE_URL=http://${localIP}:5000/api`);
+  // Harmonisation avec le frontend: utiliser VITE_API_URL et VITE_BACKEND_URL
+  envContent = envContent.replace(/VITE_API_BASE_URL=.*/g, "");
+  if (!/VITE_API_URL=/.test(envContent)) {
+    envContent += `\nVITE_API_URL=http://${localIP}:5000/api`;
+  } else {
+    envContent = envContent.replace(/VITE_API_URL=.*/g, `VITE_API_URL=http://${localIP}:5000/api`);
+  }
+  if (!/VITE_BACKEND_URL=/.test(envContent)) {
+    envContent += `\nVITE_BACKEND_URL=http://${localIP}:5000`;
+  } else {
+    envContent = envContent.replace(/VITE_BACKEND_URL=.*/g, `VITE_BACKEND_URL=http://${localIP}:5000`);
+  }
 
   fs.writeFileSync(envPath, envContent);
   console.log('✅ Fichier .env mis à jour avec les configurations réseau');

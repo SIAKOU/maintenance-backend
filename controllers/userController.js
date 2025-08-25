@@ -308,7 +308,8 @@ const deleteAvatar = async (req, res) => {
     if (!user) return res.status(404).json({ error: "Utilisateur non trouvé" });
     if (!user.avatar) return res.status(400).json({ error: "Aucun avatar à supprimer" });
     // Supprimer le fichier du disque
-    const filePath = path.join(__dirname, "..", user.avatar);
+    const relative = user.avatar.startsWith('/uploads/') ? user.avatar.slice(1) : user.avatar;
+    const filePath = path.join(__dirname, "..", relative);
     if (fs.existsSync(filePath)) {
       fs.unlinkSync(filePath);
     }
@@ -361,6 +362,61 @@ const deleteUser = async (req, res) => {
   }
 };
 
+// Mise à jour d'avatar dédiée (sans valider les autres champs)
+const updateAvatarOnly = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const user = await User.findByPk(id);
+    if (!user) return res.status(404).json({ error: "Utilisateur non trouvé" });
+
+    if (!req.file) {
+      return res.status(400).json({ error: "Aucun fichier avatar fourni" });
+    }
+
+    // Supprimer l'ancien avatar et son enregistrement
+    if (user.avatar) {
+      const oldAttachment = await FileAttachment.findOne({ where: { userId: user.id, fileType: 'avatar' } });
+      if (oldAttachment) {
+        deleteFile(oldAttachment.path);
+        await oldAttachment.destroy();
+      }
+    }
+
+    const newAvatarPath = getPublicUrl(req.file.path);
+    await FileAttachment.create({
+      filename: req.file.filename,
+      originalName: req.file.originalname,
+      path: req.file.path,
+      mimetype: req.file.mimetype,
+      size: req.file.size,
+      category: 'image',
+      fileType: 'avatar',
+      userId: user.id,
+      uploadedBy: req.user.id,
+      description: `Avatar pour ${user.firstName} ${user.lastName}`
+    });
+
+    await user.update({ avatar: newAvatarPath });
+
+    return res.json({
+      message: "Avatar mis à jour",
+      user: {
+        id: user.id,
+        firstName: user.firstName,
+        lastName: user.lastName,
+        email: user.email,
+        role: user.role,
+        phone: user.phone,
+        isActive: user.isActive,
+        avatar: user.avatar,
+      }
+    });
+  } catch (error) {
+    logger.error("Erreur mise à jour avatar:", error);
+    return res.status(500).json({ error: "Erreur serveur lors de la mise à jour de l'avatar" });
+  }
+};
+
 module.exports = {
   getAllUsers,
   createUser,
@@ -368,4 +424,5 @@ module.exports = {
   toggleUserStatus,
   deleteAvatar,
   deleteUser,
+  updateAvatarOnly,
 };

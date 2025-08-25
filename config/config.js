@@ -1,10 +1,18 @@
 require('dotenv').config();
 
+// Validation stricte des variables d'environnement critiques
+const requiredEnvVars = ['DB_USER', 'DB_PASSWORD', 'DB_NAME'];
+requiredEnvVars.forEach(varName => {
+  if (!process.env[varName]) {
+    throw new Error(`Variable d'environnement manquante: ${varName}`);
+  }
+});
+
 module.exports = {
   development: {
-    username: process.env.DB_USER || 'postgres',
-    password: process.env.DB_PASSWORD || 'stanislas',
-    database: process.env.DB_NAME || 'gestion_maintenance',
+    username: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_NAME,
     host: process.env.DB_HOST || 'localhost',
     port: process.env.DB_PORT || 5432,
     dialect: 'postgres',
@@ -18,9 +26,9 @@ module.exports = {
   },
 
   test: {
-    username: process.env.DB_USER || 'postgres',
-    password: process.env.DB_PASSWORD || 'stanislas',
-    database: process.env.DB_NAME_TEST || 'gestion_maintenance_test',
+    username: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_NAME_TEST,
     host: process.env.DB_HOST || 'localhost',
     port: process.env.DB_PORT || 5432,
     dialect: 'postgres',
@@ -34,9 +42,9 @@ module.exports = {
   },
 
   production: {
-    username: process.env.DB_USER || 'postgres',
-    password: process.env.DB_PASSWORD || 'stanislas',
-    database: process.env.DB_NAME || 'gestion_maintenance_prod',
+    username: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_NAME,
     host: process.env.DB_HOST || 'localhost',
     port: process.env.DB_PORT || 5432,
     dialect: 'postgres',

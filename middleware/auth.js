@@ -72,4 +72,17 @@ const authorize = (...roles) => {
   };
 };
 
-module.exports = { authenticateToken, authorize };
+// Autorise si admin (ou rôle dans roles) OU si l'utilisateur agit sur sa propre ressource (param :id)
+const authorizeSelfOrRoles = (...roles) => {
+  return (req, res, next) => {
+    if (!req.user) {
+      return res.status(401).json({ error: 'Non authentifié' });
+    }
+    const isSelf = req.params && String(req.params.id) === String(req.user.id);
+    if (isSelf) return next();
+    if (roles.includes(req.user.role)) return next();
+    return res.status(403).json({ error: 'Accès non autorisé' });
+  };
+};
+
+module.exports = { authenticateToken, authorize, authorizeSelfOrRoles };

@@ -36,7 +36,21 @@ const getMachines = async (req, res) => {
       where,
       order: [['createdAt', 'DESC']],
     });
-    res.json({ machines });
+    // Toujours renvoyer le champ image sous forme d'URL publique ou null
+    const machinesWithImage = machines.map(machine => {
+      const m = machine.toJSON();
+      m.image = m.image ? getPublicUrl(m.image) : null;
+      return m;
+    });
+    // Calculer les statusCounts pour le frontend
+    const allMachines = await Machine.findAll();
+    const statusCounts = {
+      operational: allMachines.filter(m => m.status === 'operational').length,
+      maintenance: allMachines.filter(m => m.status === 'maintenance').length,
+      breakdown: allMachines.filter(m => m.status === 'breakdown').length,
+      total: allMachines.length
+    };
+    res.json({ machines: machinesWithImage, statusCounts });
   } catch (error) {
     logger.error('Erreur récupération machines:', error);
     res.status(500).json({ error: 'Erreur serveur' });
@@ -153,8 +167,43 @@ const deleteMachine = async (req, res) => {
   }
 };
 
+const updateMachineStatusSchema = Joi.object({
+  status: Joi.string().valid('operational', 'maintenance', 'breakdown', 'retired').required()
+});
+
+const updateMachineStatus = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const { error, value } = updateMachineStatusSchema.validate(req.body);
+    if (error) {
+      return res.status(400).json({ error: error.details[0].message });
+    }
+    const machine = await Machine.findByPk(id);
+    if (!machine) return res.status(404).json({ error: 'Machine non trouvée' });
+    const oldStatus = machine.status;
+    await machine.update({ status: value.status });
+    // Log d'audit
+    try {
+      await AuditLog.create({
+        userId: req.user.id,
+        action: "UPDATE_STATUS",
+        entity: "Machine",
+        entityId: machine.id,
+        details: `Statut modifié de ${oldStatus} à ${value.status}`,
+        ipAddress: req.ip,
+        userAgent: req.get("User-Agent"),
+      });
+    } catch (auditError) { logger.warn("Erreur log audit statut machine:", auditError); }
+    res.json({ message: 'Statut mis à jour', machine });
+  } catch (error) {
+    logger.error('Erreur modification statut machine:', error);
+    res.status(500).json({ error: 'Erreur serveur' });
+  }
+};
+
 module.exports = {
   getMachines,
   createMachine,
   deleteMachine,
+  updateMachineStatus,
 };

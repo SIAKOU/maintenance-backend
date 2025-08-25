@@ -72,6 +72,9 @@ const resizeImage = async (filePath, category) => {
   }
 };
 
+// Sanitize basique du nom original pour logs éventuels
+const sanitizeName = (name) => name.replace(/[^a-zA-Z0-9._-]/g, '_');
+
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
     const category = getCategory(file.fieldname);
@@ -85,23 +88,24 @@ const storage = multer.diskStorage({
   },
   filename: (req, file, cb) => {
     const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1E9);
-    const ext = path.extname(file.originalname);
+    const ext = path.extname(file.originalname).toLowerCase();
     const category = getCategory(file.fieldname);
+    const safeOriginal = sanitizeName(path.basename(file.originalname, ext));
     
     // Nom de fichier basé sur la catégorie
     let filename;
     switch (category) {
       case 'avatar':
-        filename = `avatar-${uniqueSuffix}${ext}`;
+        filename = `avatar-${safeOriginal}-${uniqueSuffix}${ext}`;
         break;
       case 'machine':
-        filename = `machine-${uniqueSuffix}${ext}`;
+        filename = `machine-${safeOriginal}-${uniqueSuffix}${ext}`;
         break;
       case 'report':
-        filename = `report-${uniqueSuffix}${ext}`;
+        filename = `report-${safeOriginal}-${uniqueSuffix}${ext}`;
         break;
       default:
-        filename = `file-${uniqueSuffix}${ext}`;
+        filename = `file-${safeOriginal}-${uniqueSuffix}${ext}`;
     }
     
     cb(null, filename);
@@ -124,10 +128,12 @@ const fileFilter = (req, file, cb) => {
 };
 
 // Middleware d'upload principal
+// Note: Multer 2 requiert Node >= 10, API inchangée pour ces options
 const upload = multer({
   storage: storage,
   limits: {
-    fileSize: Math.max(...Object.values(FILE_CATEGORIES).map(c => c.maxSize))
+    fileSize: Math.max(...Object.values(FILE_CATEGORIES).map(c => c.maxSize)),
+    files: 10
   },
   fileFilter: fileFilter
 });
@@ -164,7 +170,8 @@ const uploadMachineImage = multer({
 const uploadReportFiles = multer({
   storage: storage,
   limits: {
-    fileSize: FILE_CATEGORIES.report.maxSize
+    fileSize: FILE_CATEGORIES.report.maxSize,
+    files: 10
   },
   fileFilter: fileFilter
 }).array('files', 10); // Maximum 10 fichiers
@@ -214,6 +221,12 @@ const handleUploadError = (error, req, res, next) => {
       return res.status(400).json({ 
         error: 'Fichier trop volumineux',
         details: 'La taille du fichier dépasse la limite autorisée'
+      });
+    }
+    if (error.code === 'LIMIT_FILES') {
+      return res.status(400).json({
+        error: 'Trop de fichiers',
+        details: 'Le nombre de fichiers dépasse la limite autorisée'
       });
     }
     if (error.code === 'LIMIT_FILE_COUNT') {
@@ -277,5 +290,29 @@ module.exports = {
   handleUploadError,
   deleteFile,
   getPublicUrl,
-  FILE_CATEGORIES
+  FILE_CATEGORIES,
+  // Middleware de whitelist de champs selon la route
+  validateAllowedFields: (allowedFields = []) => (req, res, next) => {
+    try {
+      const fieldnames = new Set();
+      if (req.file) fieldnames.add(req.file.fieldname);
+      if (Array.isArray(req.files)) {
+        req.files.forEach(f => fieldnames.add(f.fieldname));
+      } else if (req.files && typeof req.files === 'object') {
+        Object.values(req.files).forEach(arr => Array.isArray(arr) && arr.forEach(f => fieldnames.add(f.fieldname)));
+      }
+
+      for (const name of fieldnames) {
+        if (!allowedFields.includes(name)) {
+          return res.status(400).json({
+            error: 'Champ de fichier non autorisé',
+            details: `Le champ ${name} n'est pas autorisé pour cette route`,
+          });
+        }
+      }
+      next();
+    } catch (e) {
+      return res.status(400).json({ error: 'Validation des champs upload échouée' });
+    }
+  }
 };

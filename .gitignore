@@ -1,0 +1,9 @@
+node_modules
+
+# Ignore environment files containing secrets
+.env
+.env.local
+
+# Ignore runtime logs and uploaded files
+/logs/
+/uploads/

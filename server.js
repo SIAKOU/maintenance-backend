@@ -10,6 +10,21 @@ const morgan = require("morgan");
 const db = require("./models");
 const { authenticateToken } = require("./middleware/auth");
 
+// Vérification stricte des variables d'environnement critiques
+const requiredEnv = [
+  'DB_HOST',
+  'DB_USER',
+  'DB_PASSWORD',
+  'DB_NAME',
+  'JWT_SECRET'
+];
+requiredEnv.forEach((key) => {
+  if (!process.env[key]) {
+    console.error(`❌ Variable d'environnement manquante : ${key}`);
+    process.exit(1);
+  }
+});
+
 // Classe d'erreur API personnalisée
 class ApiError extends Error {
   constructor(message, status = 500, details = null) {
@@ -48,43 +63,33 @@ const allowedOrigins = [
   `http://127.0.0.1:5173`,
   `http://${LOCAL_IP}:${PORT}`,
   `http://${LOCAL_IP}:5173`,
-  `http://${LOCAL_IP}:8080`,
+  `http://${LOCAL_IP}:8081`,
   `http://192.150.24.44:${PORT}`,
   `http://192.150.24.44:5173`,
-  `http://192.150.24.44:8080`,
+  `http://192.150.24.44:8081`,
   process.env.FRONTEND_URL, // URL du frontend en production
 ].filter(Boolean);
 
-// Correction: allowedHeaders et exposedHeaders doivent être bien définis, et la gestion des origines doit être robuste
+// Gestion CORS universelle pour réseau local et production sécurisée
 const corsOptions = {
   origin: function (origin, callback) {
-    // En développement, autoriser toutes les origines locales
-    if (process.env.NODE_ENV !== "production") {
-      if (
-        !origin ||
-        origin.includes("localhost") ||
-        origin.includes("127.0.0.1") ||
-        origin.includes(LOCAL_IP)
-      ) {
-        return callback(null, true);
-      }
-    }
-    // En production, vérifier les origines autorisées
-    if (allowedOrigins.includes(origin)) {
+    // Autoriser toutes les origines locales (localhost, 127.0.0.1, IP locale, réseau local)
+    const localNetworkRegex = /^http:\/\/(192\.168|10\.|172\.(1[6-9]|2[0-9]|3[01]))\./;
+    if (
+      !origin ||
+      origin.includes("localhost") ||
+      origin.includes("127.0.0.1") ||
+      origin.includes(LOCAL_IP) ||
+      localNetworkRegex.test(origin)
+    ) {
       return callback(null, true);
     }
-    // Bloquer les requêtes non autorisées en production
-    if (process.env.NODE_ENV === "production") {
-      return callback(
-        new Error("Accès non autorisé par la politique CORS"),
-        false
-      );
+    // En production, autoriser aussi FRONTEND_URL
+    if (process.env.FRONTEND_URL && origin === process.env.FRONTEND_URL) {
+      return callback(null, true);
     }
-    // En développement, permettre quand même avec un avertissement
-    console.warn(
-      `Avertissement: Origine non autorisée en développement: ${origin}`
-    );
-    callback(null, true);
+    // Sinon, refuser
+    return callback(new Error("Accès non autorisé par la politique CORS"), false);
   },
   credentials: true,
   optionsSuccessStatus: 200,
@@ -94,7 +99,14 @@ const corsOptions = {
 };
 
 // Middlewares de base
-app.use(helmet());
+app.use(helmet({
+  // Autoriser le chargement des images depuis une autre origine (frontend sur 5173/8081)
+  crossOriginResourcePolicy: { policy: "cross-origin" },
+  // Eviter de bloquer certaines intégrations (prévisualisations, popups auth)
+  crossOriginOpenerPolicy: { policy: "same-origin-allow-popups" },
+  // Désactiver COEP qui peut bloquer des ressources tierces et workers si mal configuré
+  crossOriginEmbedderPolicy: false,
+}));
 app.use(cors(corsOptions));
 app.use(morgan(process.env.NODE_ENV === "production" ? "combined" : "dev"));
 
@@ -121,6 +133,11 @@ app.use('/uploads', (req, res, next) => {
   next();
 }, express.static(path.join(__dirname, "uploads"), {
   maxAge: process.env.NODE_ENV === "production" ? "7d" : "0",
+  setHeaders: (res) => {
+    // Permettre l’affichage cross-origin des images
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Cross-Origin-Resource-Policy', 'cross-origin');
+  }
 }));
 
 // Correction: extension de la gestion des types MIME
@@ -149,13 +166,12 @@ app.get('/api/files/:filename', authenticateToken, async (req, res) => {
       '.xls': 'application/vnd.ms-excel',
       '.csv': 'text/csv',
     };
-    res.json({
-      filename,
-      size: stats.size,
-      mimetype: mimeTypes[ext] || 'application/octet-stream',
-      createdAt: stats.birthtime,
-      modifiedAt: stats.mtime
-    });
+    // Téléchargement sécurisé avec content-disposition
+    res.setHeader('Content-Type', mimeTypes[ext] || 'application/octet-stream');
+    const safeName = filename.replace(/[^a-zA-Z0-9._-]/g, '_');
+    res.setHeader('Content-Disposition', `attachment; filename="${safeName}"`);
+    const stream = fs.createReadStream(filePath);
+    stream.pipe(res);
   } catch (error) {
     console.error('Erreur lors de la récupération des informations du fichier:', error);
     res.status(500).json({ error: 'Erreur serveur' });
@@ -256,23 +272,37 @@ app.use("*", (req, res) => {
 
 // Classe d'erreur API personnalisée (déplacée en haut du fichier)
 
+// Amélioration de l'affichage terminale
+
 // Fonction de démarrage du serveur améliorée
 const startServer = async () => {
+  let chalk = null;
   try {
-    console.log("⏳ Tentative de connexion à la base de données...");
+    chalk = await import('chalk').then(mod => mod.default);
+  } catch (e) {
+    // Fallback : pas de couleur si chalk non dispo
+    chalk = {
+      cyan: (s) => s, green: (s) => s, yellowBright: (s) => s, magentaBright: (s) => s,
+      greenBright: (s) => s, blueBright: (s) => s, white: (s) => s, bgBlue: { white: { bold: (s) => s } },
+      bgWhite: { black: { bold: (s) => s } }, bgGreen: { black: { bold: (s) => s } }, bgRed: { white: { bold: (s) => s } },
+      bold: (s) => s
+    };
+  }
+  try {
+    console.log(chalk.cyan.bold("⏳ Tentative de connexion à la base de données..."));
     await db.sequelize.authenticate();
-    console.log("✅ Connexion à la base de données établie");
+    console.log(chalk.green.bold("✅ Connexion à la base de données établie"));
 
     if (process.env.NODE_ENV !== "production") {
-      console.log("⏳ Synchronisation des modèles de base de données...");
+      console.log(chalk.cyan("⏳ Synchronisation des modèles de base de données..."));
       await db.sequelize.sync({ alter: true });
-      console.log("✅ Modèles de base de données synchronisés");
+      console.log(chalk.green("✅ Modèles de base de données synchronisés"));
     }
 
     app.listen(PORT, "0.0.0.0", () => {
-      console.log(`\n🚀 Serveur démarré sur le port ${PORT}`);
-      console.log(`📡 Environnement: ${process.env.NODE_ENV || "development"}`);
-      console.log(`🌐 Le backend est accessible sur les adresses suivantes :`);
+      console.log(chalk.bgBlue.white.bold(`\n🚀 Serveur démarré sur le port ${PORT}`));
+      console.log(chalk.yellowBright(`📡 Environnement: ${process.env.NODE_ENV || "development"}`));
+      console.log(chalk.magentaBright("🌐 Le backend est accessible sur les adresses suivantes :"));
       // Affiche toutes les IP locales IPv4
       const interfaces = os.networkInterfaces();
       const shown = new Set();
@@ -280,23 +310,34 @@ const startServer = async () => {
         ifaces.forEach(iface => {
           if (iface.family === "IPv4" && !iface.internal && !shown.has(iface.address)) {
             shown.add(iface.address);
-            console.log(`   - http://${iface.address}:${PORT}`);
+            console.log(chalk.greenBright(`   - http://${iface.address}:${PORT}`));
           }
         });
       });
       // Toujours afficher localhost
-      console.log(`   - http://localhost:${PORT}`);
-      console.log(`🔒 Origines autorisées:`, allowedOrigins);
-      console.log(`📚 Points finaux API:`);
-      console.log(`   - /api/auth`);
-      console.log(`   - /api/reports`);
-      console.log(`   - /api/users`);
-      console.log(`   - /api/machines`);
-      console.log(`   - /api/health (vérification de santé)`);
-      console.log(`   - /api/config-check (vérification de configuration)\n`);
+      console.log(chalk.greenBright(`   - http://localhost:${PORT}`));
+      if (process.env.FRONTEND_URL) {
+        console.log(chalk.blueBright(`🔒 Origine frontend autorisée (prod) : ${process.env.FRONTEND_URL}`));
+      }
+      console.log(chalk.cyan("\n📚 Points finaux API principaux :"));
+      console.log(chalk.cyan("   - /api/auth"));
+      console.log(chalk.cyan("   - /api/reports"));
+      console.log(chalk.cyan("   - /api/users"));
+      console.log(chalk.cyan("   - /api/machines"));
+      console.log(chalk.cyan("   - /api/health (vérification de santé)"));
+      console.log(chalk.cyan("   - /api/config-check (vérification de configuration)\n"));
+      // Résumé sécurité
+      console.log(chalk.bgWhite.black.bold("Résumé sécurité CORS :"));
+      console.log(chalk.white("- Toutes les IPs du réseau local sont autorisées (192.168.x.x, 10.x.x.x, 172.16.x.x-172.31.x.x)"));
+      console.log(chalk.white("- localhost et 127.0.0.1 autorisés"));
+      if (process.env.FRONTEND_URL) {
+        console.log(chalk.white(`- Origine frontend autorisée en production : ${process.env.FRONTEND_URL}`));
+      }
+      console.log(chalk.white("- Toute autre origine sera refusée (CORS)"));
+      console.log(chalk.bgGreen.black.bold("Prêt à recevoir des requêtes !"));
     });
   } catch (error) {
-    console.error("❌ Erreur critique lors du démarrage du serveur:", error);
+    console.error(chalk.bgRed.white.bold("❌ Erreur critique lors du démarrage du serveur:"), error);
     process.exit(1);
   }
 };

@@ -10,7 +10,7 @@ const {
   getMaintenanceStats
 } = require('../controllers/maintenanceScheduleController');
 const { authenticateToken, authorize } = require('../middleware/auth');
-const { uploadReportFiles, processUploadedFiles, handleUploadError } = require('../middleware/upload');
+const { uploadReportFiles, processUploadedFiles, handleUploadError, validateAllowedFields } = require('../middleware/upload');
 
 const router = express.Router();
 
@@ -27,6 +27,6 @@ router.delete('/:id', authenticateToken, authorize('admin'), deleteMaintenanceSc
 
 // Route pour finaliser une maintenance
 router.post('/:id/complete', authenticateToken, authorize('admin', 'technician'), 
-  uploadReportFiles, handleUploadError, processUploadedFiles, completeMaintenance);
+  validateAllowedFields(['files']), uploadReportFiles, handleUploadError, processUploadedFiles, completeMaintenance);
 
 module.exports = router; 
